@@ -1,0 +1,78 @@
+{
+    "target_col": "diabetes",
+    "task_type": "binclass",
+    "n_num_features": 15,
+    "n_cat_features": 0,
+    "numeric_features": [
+        "age",
+        "hypertension",
+        "heart_disease",
+        "bmi",
+        "HbA1c_level",
+        "blood_glucose_level",
+        "gender_Female",
+        "gender_Male",
+        "gender_Other",
+        "smoking_history_No Info",
+        "smoking_history_current",
+        "smoking_history_ever",
+        "smoking_history_former",
+        "smoking_history_never",
+        "smoking_history_not current"
+    ],
+    "categorical_features": [],
+    "high_card_numeric": [
+        "age",
+        "bmi",
+        "HbA1c_level",
+        "blood_glucose_level"
+    ],
+    "binary_features": [
+        "hypertension",
+        "heart_disease"
+    ],
+    "original_features": [
+        "gender",
+        "age",
+        "hypertension",
+        "heart_disease",
+        "smoking_history",
+        "bmi",
+        "HbA1c_level",
+        "blood_glucose_level"
+    ],
+    "feature_names": [
+        "age",
+        "hypertension",
+        "heart_disease",
+        "bmi",
+        "HbA1c_level",
+        "blood_glucose_level",
+        "gender_Female",
+        "gender_Male",
+        "gender_Other",
+        "smoking_history_No Info",
+        "smoking_history_current",
+        "smoking_history_ever",
+        "smoking_history_former",
+        "smoking_history_never",
+        "smoking_history_not current"
+    ],
+    "cat_mappings": {},
+    "target_mapping": {
+        "0": "0",
+        "1": "1"
+    },
+    "encoding_strategy": "One-Hot Encoding",
+    "potential_leaks": {},
+    "smote_stats": {
+        "before": {
+            "0": 52598,
+            "1": 5089
+        },
+        "after": {
+            "0": 52598,
+            "1": 52598
+        }
+    }
+}

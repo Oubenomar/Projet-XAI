@@ -1,0 +1,1 @@
+{"task_type": "binclass", "numeric_features": ["num_0", "num_1", "num_2", "num_3", "num_4"], "categorical_features": ["cat_0", "cat_1"], "cat_mappings": {}, "feature_names": ["num_0", "num_1", "num_2", "num_3", "num_4", "cat_0", "cat_1"], "n_num_features": 5, "n_cat_features": 2}
